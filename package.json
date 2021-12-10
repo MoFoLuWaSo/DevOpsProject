@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.14.5",
+        "autoprefixer": "^10.3.1",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.3.6",
+        "tailwindcss": "^2.2.7"
+    },
+    "dependencies": {
+        "@ant-design/icons": "^4.6.4",
+        "@tensorflow/tfjs": "^3.9.0",
+        "antd": "^4.16.12",
+        "antd-img-crop": "^3.16.0",
+        "connected-react-router": "^6.9.1",
+        "danfojs": "^0.2.8",
+        "history": "^4.9.0",
+        "moment": "^2.29.1",
+        "nprogress": "^0.2.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-intl": "^5.20.9",
+        "react-placeholder": "^4.1.0",
+        "react-redux": "^7.2.4",
+        "react-router-dom": "^5.2.0",
+        "recharts": "^2.1.2",
+        "redux": "^4.1.1",
+        "redux-thunk": "^2.3.0"
+    }
+}
